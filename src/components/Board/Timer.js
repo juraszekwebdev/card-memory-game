@@ -17,6 +17,7 @@ const Timer = props => {
             setTimeTotal(30);
             setTimeLeft(30);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     useEffect(() => {
@@ -48,6 +49,7 @@ const Timer = props => {
         }
 
         return () => clearInterval(intervalId);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [timeLeft, gameState])
 
     return (

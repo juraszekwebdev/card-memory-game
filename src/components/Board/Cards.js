@@ -96,6 +96,7 @@ const Cards = props => {
         if(gameState === STARTED) {
             initBoard();
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [gameState])
 
     useEffect(() => {
@@ -105,12 +106,14 @@ const Cards = props => {
                 hideCards();
             }, 200);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [clickedCards])
 
     useEffect(() => {
         if(_.size(_.filter(cards, {matched: true})) === _.size(initialCards)) {
             finishGame()
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [cards])
 
     const initBoard = () => {
