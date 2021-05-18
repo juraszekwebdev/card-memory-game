@@ -1,21 +1,18 @@
 # Card Memory Game
-Simple Card Memory Game written in ReactJS
+Simple Card Memory Game.
 
-Demo version: [LINK](https://pj-cardmemorygame.netlify.app)
+Demo: [LINK](https://pj-cardmemorygame.netlify.app)
 
-## Running project
+## Running project locally
 
 ### Install dependencies
-### `yarn install`
+### `npm install`
 
-### Run locally
-### `yarn start`
+### Run locally (http://localhost:3000)
+### `npm run start`
 
-### Build app
-### `yarn build`
-Builds the app for production to the `build` folder.
+### Build app (/build)
+### `npm run build`
 
 ## Used technologies
 - ReactJS
-- Lodash
-- SCSS
