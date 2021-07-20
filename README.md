@@ -1,18 +1,27 @@
-# Card Memory Game
-Simple Card Memory Game.
+## Card Memory Game
 
-Demo: [LINK](https://pj-cardmemorygame.netlify.app)
+This is a simple Card Memory game, built with React.
 
-## Running project locally
+Demo version: [LINK](https://pj-bookfinder.netlify.app/)
 
-### Install dependencies
-### `npm install`
+## Installation and Setup Instructions
 
-### Run locally (http://localhost:3000)
-### `npm run start`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-### Build app (/build)
-### `npm run build`
+Installation:
 
-## Used technologies
-- ReactJS
+`npm install`
+
+To Start Server:
+
+`npm start`
+
+To Visit App:
+
+`localhost:3000`
+
+## Used Technologies
+
+- React.js
+- SCSS
+- Lodash
